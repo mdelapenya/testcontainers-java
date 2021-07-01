@@ -108,7 +108,7 @@ dependencies {
         exclude(group: 'org.jetbrains', module: 'annotations')
     }
 
-    api "com.github.docker-java:docker-java-api:3.2.10"
+    api "com.github.docker-java:docker-java-api:3.2.11"
 
     shaded ('com.github.docker-java:docker-java-core:3.2.10') {
         exclude(group: 'com.github.docker-java', module: 'docker-java-api')
